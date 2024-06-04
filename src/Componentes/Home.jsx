@@ -7,10 +7,11 @@ import styles from './Home.module.css';
 export function Home(props) {
   return (
     <div className={styles.container}>
-      <video className={styles.video} autoPlay loop controls>
-        <source src={video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <video className={styles.video} autoPlay loop controls >
+    <source src={video} type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
       <div className={styles.content}>
         <h1 className={styles.title}>{props.start}</h1>
         <div className={styles.messageContainer}>
