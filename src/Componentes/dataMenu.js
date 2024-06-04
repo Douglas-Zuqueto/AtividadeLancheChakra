@@ -20,7 +20,7 @@ export const responsive = {
 export const menuHamburguer = [
     {
       id: 1,
-      imageurl: "../assets/Img/ham1.png",
+      imageurl: "../assets/Img/teste.avif",
       name: "Hambúrguer Clássico",
       price: "R$18,99"
   },
